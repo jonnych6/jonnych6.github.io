@@ -539,6 +539,12 @@
     font-size: 0.95rem;
   }
 
+  .timeline-logo {
+    max-width: 80px;
+    margin: 0 auto 1rem;
+    display: block;
+  }
+  
   /* Custom */
   .go-home {
     text-align: center; }
