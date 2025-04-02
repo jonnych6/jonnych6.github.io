@@ -449,15 +449,21 @@
   }
 
   .intro h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 700;
   }
   
   .intro h2 {
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-weight: 500;
   }
   
+  #typed {
+    font-size: 3.2rem;  /* Makes the rotating text stand out even more */
+    color: #16a085;
+    font-weight: 700;
+  }
+
 /* =Main Timeline *//*************************************************************/
   .main-timeline {
     position: relative;
