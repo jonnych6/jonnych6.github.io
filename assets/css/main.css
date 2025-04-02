@@ -631,26 +631,37 @@
     gap: 0.5rem;
   }
 
-  /* Individual Tags */
+  /* Core tag style */
   .tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
     background: #f9f9f9;
     color: #333;
-    padding: 0.4rem 0.9rem;
+    padding: 0.35rem 0.75rem;
     font-size: 0.85rem;
     font-weight: 500;
     border-radius: 20px;
     border: 1px solid #ddd;
-    transition: all 0.2s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    min-width: 80px;
+    min-height: 32px;
   }
 
-  .tag:hover {
-    background: #16a085;
-    color: white;
-    border-color: #16a085;
+  /* Icon inside tag */
+  .tag-icon {
+    width: 16px;
+    height: 16px;
+    transition: filter 0.3s ease;
   }
 
-
-
+  /* Hide animation */
+  .tag.hide {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
   /* Custom */
   .go-home {
     text-align: center; }

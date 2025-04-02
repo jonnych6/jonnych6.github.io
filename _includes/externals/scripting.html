@@ -30,10 +30,11 @@
         const category = this.getAttribute('data-filter');
 
         tags.forEach(tag => {
-          if (category === 'all' || tag.getAttribute('data-category') === category) {
-            tag.style.display = 'inline-block';
+          const tagCategory = tag.getAttribute('data-category');
+          if (category === 'all' || tagCategory === category) {
+            tag.classList.remove('hide');
           } else {
-            tag.style.display = 'none';
+            tag.classList.add('hide');
           }
         });
       });

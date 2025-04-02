@@ -57,7 +57,6 @@ sitemap:
 </div>
   <!-- End of timeline -->
 
-<!-- Skills Section -->
 <!-- Skills Section (Filterable Tags) -->
 <section class="skills-section" id="skills">
   <h2 class="section-title">My Skills</h2>
@@ -67,46 +66,126 @@ sitemap:
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="programming">Programming</button>
     <button class="filter-btn" data-filter="security">Security</button>
-    <button class="filter-btn" data-filter="network">Network</button>
+    <button class="filter-btn" data-filter="network">Networking & Monitoring</button>
     <button class="filter-btn" data-filter="tools">Tools</button>
     <button class="filter-btn" data-filter="os">Operating Systems</button>
   </div>
 
   <!-- Skills tag grid -->
   <div class="skills-tags">
-    <!-- Programming -->
-    <span class="tag" data-category="programming">Python</span>
-    <span class="tag" data-category="programming">PowerShell</span>
-    <span class="tag" data-category="programming">Bash</span>
-    <span class="tag" data-category="programming">Java</span>
-    <span class="tag" data-category="programming">SQL</span>
-    <span class="tag" data-category="programming">KQL</span>
-    <!-- Security -->
-    <span class="tag" data-category="security">MITRE ATT&CK</span>
-    <span class="tag" data-category="security">Threat Hunting</span>
-    <span class="tag" data-category="security">Splunk</span>
-    <span class="tag" data-category="security">Kibana</span>
-    <span class="tag" data-category="security">Windows Event Logs</span>
-    <!-- Network -->
-    <span class="tag" data-category="network">Wireshark</span>
-    <span class="tag" data-category="network">Active Directory</span>
-    <span class="tag" data-category="network">Nmap</span>
-    <span class="tag" data-category="network">Sysmon</span>
-    <span class="tag" data-category="network">Grafana</span>
-    <span class="tag" data-category="network">EDR Solutions</span>
-    <!-- Tools -->
-    <span class="tag" data-category="tools">Git</span>
-    <span class="tag" data-category="tools">VS Code</span>
-    <span class="tag" data-category="tools">Jira</span>
-    <span class="tag" data-category="tools">Confluence</span>
-    <span class="tag" data-category="tools">VMware</span>
-    <span class="tag" data-category="tools">Shuffle</span>
-    <span class="tag" data-category="tools">TheHive</span>
-    <span class="tag" data-category="tools">Wazuh</span>
-    <!-- Operating Systems -->
-    <span class="tag" data-category="os">Windows</span>
-    <span class="tag" data-category="os">Linux (Ubuntu, Kali)</span>
-    <span class="tag" data-category="os">MacOS</span>
-  </div>
-</section>
+  <!-- Programming -->
+  <span class="tag" data-category="programming">
+    <img src="assets/img/skills-icons/icons8-python.svg" alt="Python icon" class="tag-icon">
+    Python
+  </span>
+  <span class="tag" data-category="programming">
+    <img src="assets/img/skills-icons/icons8-powershell.svg" alt="PowerShell icon" class="tag-icon">
+    PowerShell
+  </span>
+  <span class="tag" data-category="programming">
+    <img src="assets/img/skills-icons/icons8-bash.svg" alt="Bash icon" class="tag-icon">
+    Bash
+  </span>
+  <span class="tag" data-category="programming">
+    <img src="assets\img\skills-icons\icons8-mysql.svg" alt="SQL icon" class="tag-icon">
+    SQL
+  </span>
+  <span class="tag" data-category="programming">
+    <img src="assets\img\skills-icons\icons8-kibana.svg" alt="KQL icon" class="tag-icon">
+    KQL
+  </span>
+
+  <!-- Security -->
+  <span class="tag" data-category="security">
+    <img src="assets\img\skills-icons\mitre.png" alt="MITRE icon" class="tag-icon">
+    MITRE ATT&CK
+  </span>
+  <span class="tag" data-category="security">
+    <img src="assets\img\skills-icons\icons8-sniper-scope-48.png" alt="Threat Hunting icon" class="tag-icon">
+    Threat Hunting
+  </span>
+  <span class="tag" data-category="security">
+    <img src="assets\img\skills-icons\splunk.png" alt="Splunk icon" class="tag-icon">
+    Splunk
+  </span>
+  <span class="tag" data-category="security">
+    <img src="assets/img/skills-icons/icons8-kibana.svg" alt="Kibana icon" class="tag-icon">
+    Kibana
+  </span>
+  <span class="tag" data-category="security">
+    <img src="assets\img\skills-icons\icons8-windows-defender.svg" alt="Sysmon icon" class="tag-icon">
+    Sysmon
+  </span>
+  <span class="tag" data-category="security">
+    <img src="assets\img\skills-icons\icons8-logs-96.png" alt="Sysmon icon" class="tag-icon">
+    Windows Event Logs
+  </span>
+
+  <!-- Network -->
+  <span class="tag" data-category="network">
+    <img src="assets\img\skills-icons\icons8-wireshark-64.png" alt="Wireshark icon" class="tag-icon">
+    Wireshark
+  </span>
+  <span class="tag" data-category="network">
+    <img src="assets\img\skills-icons\icons8-nmap.svg" alt="Nmap icon" class="tag-icon">
+    Nmap
+  </span>
+  <span class="tag" data-category="network">
+    <img src="assets\img\skills-icons\icons8-grafana.svg" alt="Grafana icon" class="tag-icon">
+    Grafana
+  </span>
+  <span class="tag" data-category="network">
+    <img src="assets\img\skills-icons\icons8-active-directory-50.png" alt="AD icon" class="tag-icon">
+    Active Directory
+  </span>
+
+  <!-- Tools -->
+  <span class="tag" data-category="tools">
+    <img src="assets\img\skills-icons\icons8-git-48.png" alt="Git icon" class="tag-icon">
+    Git
+  </span>
+  <span class="tag" data-category="tools">
+    <img src="assets\img\skills-icons\icons8-vs-code-48.png" alt="VS Code icon" class="tag-icon">
+    VS Code
+  </span>
+  <span class="tag" data-category="tools">
+    <img src="assets\img\skills-icons\icons8-jira.svg" alt="Jira icon" class="tag-icon">
+    Jira
+  </span>
+  <span class="tag" data-category="tools">
+    <img src="assets\img\skills-icons\icons8-confluence.svg" alt="Confluence icon" class="tag-icon">
+    Confluence
+  </span>
+  <span class="tag" data-category="tools">
+  <img src="assets\img\skills-icons\icons8-vmware-50.png" alt="VMware icon" class="tag-icon">
+    VMware
+  </span>
+  <span class="tag" data-category="tools">
+    <img src="assets\img\skills-icons\shuffle.png" alt="Shuffle icon" class="tag-icon">
+    Shuffle
+  </span>
+  <span class="tag" data-category="tools">
+    <img src="assets\img\skills-icons\icons8-bee-64.png" alt="TheHive icon" class="tag-icon">
+    TheHive
+  </span>
+  <span class="tag" data-category="tools">
+    <img src="assets\img\skills-icons\wazuh.png" alt="Wazuh icon" class="tag-icon">
+    Wazuh
+  </span>
+
+  <!-- OS -->
+  <span class="tag" data-category="os">
+    <img src="assets\img\skills-icons\icons8-windows.svg" alt="Windows icon" class="tag-icon">
+    Windows
+  </span>
+  <span class="tag" data-category="os">
+    <img src="assets\img\skills-icons\icons8-linux-48.png" alt="Linux icon" class="tag-icon">
+    Linux (Ubuntu, Kali)
+  </span>
+  <span class="tag" data-category="os">
+    <img src="assets\img\skills-icons\icons8-mac-48.png" alt="MacOS icon" class="tag-icon">
+    MacOS
+  </span>
+</div>
+
 <!-- End of Skills Section -->
