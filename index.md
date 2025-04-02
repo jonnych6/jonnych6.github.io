@@ -57,5 +57,56 @@ sitemap:
 </div>
   <!-- End of timeline -->
 
-  <!-- Skills Section -->
-  <!-- End of Skills Section -->
+<!-- Skills Section -->
+<!-- Skills Section (Filterable Tags) -->
+<section class="skills-section" id="skills">
+  <h2 class="section-title">My Skills</h2>
+
+  <!-- Filter buttons -->
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="programming">Programming</button>
+    <button class="filter-btn" data-filter="security">Security</button>
+    <button class="filter-btn" data-filter="network">Network</button>
+    <button class="filter-btn" data-filter="tools">Tools</button>
+    <button class="filter-btn" data-filter="os">Operating Systems</button>
+  </div>
+
+  <!-- Skills tag grid -->
+  <div class="skills-tags">
+    <!-- Programming -->
+    <span class="tag" data-category="programming">Python</span>
+    <span class="tag" data-category="programming">PowerShell</span>
+    <span class="tag" data-category="programming">Bash</span>
+    <span class="tag" data-category="programming">Java</span>
+    <span class="tag" data-category="programming">SQL</span>
+    <span class="tag" data-category="programming">KQL</span>
+    <!-- Security -->
+    <span class="tag" data-category="security">MITRE ATT&CK</span>
+    <span class="tag" data-category="security">Threat Hunting</span>
+    <span class="tag" data-category="security">Splunk</span>
+    <span class="tag" data-category="security">Kibana</span>
+    <span class="tag" data-category="security">Windows Event Logs</span>
+    <!-- Network -->
+    <span class="tag" data-category="network">Wireshark</span>
+    <span class="tag" data-category="network">Active Directory</span>
+    <span class="tag" data-category="network">Nmap</span>
+    <span class="tag" data-category="network">Sysmon</span>
+    <span class="tag" data-category="network">Grafana</span>
+    <span class="tag" data-category="network">EDR Solutions</span>
+    <!-- Tools -->
+    <span class="tag" data-category="tools">Git</span>
+    <span class="tag" data-category="tools">VS Code</span>
+    <span class="tag" data-category="tools">Jira</span>
+    <span class="tag" data-category="tools">Confluence</span>
+    <span class="tag" data-category="tools">VMware</span>
+    <span class="tag" data-category="tools">Shuffle</span>
+    <span class="tag" data-category="tools">TheHive</span>
+    <span class="tag" data-category="tools">Wazuh</span>
+    <!-- Operating Systems -->
+    <span class="tag" data-category="os">Windows</span>
+    <span class="tag" data-category="os">Linux (Ubuntu, Kali)</span>
+    <span class="tag" data-category="os">MacOS</span>
+  </div>
+</section>
+<!-- End of Skills Section -->
