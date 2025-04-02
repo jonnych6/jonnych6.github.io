@@ -23,11 +23,11 @@ sitemap:
 <!-- Arctic Wolf -->
 <div class="main-timeline" id="timeline">
   <div class="timeline-block">
-    <span class="timeline-date">August 2024 – December 2024</span>
+    <span class="timeline-date">🧑‍💻 August 2024 – December 2024</span>
     <div class="timeline-marker experience"></div>
     <div class="timeline-content">
       <img src="assets\img\aw-logo.png" class="timeline-logo" alt="Arctic Wolf Logo">
-      <h3>Endpoint Security Developer</h3>
+      <h3>Endpoint Security Developer Co-op</h3>
       <h4>Arctic Wolf</h4>
       <p>Details...</p>
     </div>
