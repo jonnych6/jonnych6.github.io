@@ -17,3 +17,16 @@ sitemap:
 	<p>A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability</p>
 	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
 </div>
+
+<div class="main-timeline">
+  <div class="timeline-block">
+  <span class="timeline-date">August 2024 – Dec 2024</span>
+  <div class="timeline-marker"></div>
+  <div class="timeline-content">
+    <h3>Job Title</h3>
+    <h4>Company Name</h4>
+    <p>Details...</p>
+  </div>
+</div>
+
+</div>
