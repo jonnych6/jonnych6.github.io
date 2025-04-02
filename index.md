@@ -21,12 +21,19 @@ sitemap:
 <div class="main-timeline">
   <div class="timeline-block">
   <span class="timeline-date">August 2024 – Dec 2024</span>
-  <div class="timeline-marker"></div>
+  <div class="timeline-marker experience"></div>
   <div class="timeline-content">
     <h3>Job Title</h3>
     <h4>Company Name</h4>
     <p>Details...</p>
   </div>
-</div>
-
+  
+  <div class="timeline-block">
+  <span class="timeline-date">August 2024</span>
+  <div class="timeline-marker education"></div>
+  <div class="timeline-content">
+    <h3>Honours Bachelor of Information Sciences (Cyber Security)</h3>
+    <h4>Sheridan College - Trafalgar</h4>
+    <p>Details...</p>
+  </div>
 </div>

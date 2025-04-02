@@ -499,6 +499,14 @@
     z-index: 1;
   }
 
+  .timeline-marker.experience {
+    background: #16a085; /* green or teal */
+  }
+  
+  .timeline-marker.education {
+    background: #a3d9c9; /* blue for education */
+  }
+
   .timeline-date {
     position: absolute;
     top: 28px; /* Aligns to center of the 20px dot */
@@ -509,6 +517,11 @@
     font-weight: bold;
     white-space: nowrap;
   }
+
+  .timeline-content {
+    text-align: center;
+  }
+  
 
   .timeline-content h3 {
     margin: 0 0 0.5rem;
