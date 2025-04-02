@@ -1,2 +1,17 @@
 <script src="{{ "/assets/vendor/highlight/highlight.pack.js" | prepend: site.baseurl }}"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Typed.js for animated intro -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var typed = new Typed('#typed', {
+        strings: ['developer.', 'cybersecurity enthusiast.', 'problem solver.', 'lifelong learner.', 'new grad.'],
+        typeSpeed: 50,
+        backSpeed: 25,
+        backDelay: 2000,
+        loop: true
+      });
+    });
+  </script>
