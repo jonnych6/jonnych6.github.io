@@ -7,6 +7,9 @@ sitemap:
 <div class="intro">
   <h1>Hi, I'm Jonathan</h1>
   <h2>I'm a <span id="typed"></span></h2>
+  <a href="#timeline" class="scroll-cue">
+    <div class="arrow-down"></div>
+  </a>
 </div>
 
 <img src="{{ '/assets/img/pudhina.jpg' | prepend: site.baseurl }}" id="about-img">
@@ -18,7 +21,7 @@ sitemap:
 
 <!-- Start of timeline -->
 <!-- Arctic Wolf -->
-<div class="main-timeline">
+<div class="main-timeline" id="timeline">
   <div class="timeline-block">
   <span class="timeline-date">August 2024 – Dec 2024</span>
   <div class="timeline-marker experience"></div>
