@@ -7,7 +7,7 @@ sitemap:
 <div class="intro">
   <h1>Hi, I'm Jonathan</h1>
   <h2>I'm a <span id="typed"></span></h2>
-  <p class="intro-subtext">Launching terminal... prompt: jonny@portfolio</p>
+  <p class="intro-subtext">Initializing terminal on scroll... prompt: jonny@portfolio</p>
   <a href="#timeline" class="scroll-cue">
     <div class="arrow-down"></div>
   </a>

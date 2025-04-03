@@ -575,7 +575,7 @@
   /* =Minimal Scroll Indicator *//**************************************************/
   .scroll-cue {
     position: absolute;
-    bottom: 150px;
+    bottom: 250px;
     left: 50%;
     transform: translateX(-50%);
     height: 40px;
