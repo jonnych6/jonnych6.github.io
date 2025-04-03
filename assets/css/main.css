@@ -511,6 +511,11 @@
     z-index: 1;
   }
 
+  .timeline-description {
+    font-size: 0.2rem;
+    color: #555;
+  }  
+
   .timeline-marker.experience {
     background: #16a085; /* green or teal */
   }
@@ -555,6 +560,10 @@
     max-width: 80px;
     margin: 0 auto 1rem;
     display: block;
+  }
+
+  .timeline-marker.certification {
+    background: #a884f3; /* soft purple */
   }
   /* =Minimal Scroll Indicator *//**************************************************/
   .scroll-cue {

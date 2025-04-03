@@ -25,8 +25,20 @@ sitemap:
 </div>
 
 <!-- Start of timeline -->
-<!-- Arctic Wolf -->
+
+<!-- Practical HelpDesk Certification -->
 <div class="main-timeline" id="timeline">
+  <div class="timeline-block">
+    <span class="timeline-date">📜 January 9th, 2024</span>
+    <div class="timeline-marker certification"></div>
+    <div class="timeline-content">
+      <img src="assets/img/cert-logo.png" class="timeline-logo" alt="Logo">
+      <h3>Practical HelpDesk</h3>
+      <h4>TCM Security</h4>
+      <p class="timeline-description">Completed the Practical HelpDesk Certification by TCM Security, focusing on troubleshooting, ticketing systems, and technical support fundamentals.</p>
+    </div>
+  </div>
+  <!-- Arctic Wolf -->
   <div class="timeline-block">
     <span class="timeline-date">🧑‍💻 August 2024 – December 2024</span>
     <div class="timeline-marker experience"></div>
