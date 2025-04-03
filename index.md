@@ -26,6 +26,7 @@ sitemap:
   </div>
 </div>
 
+<h2 class="section-title">Career Timeline</h2>
 <!-- Start of timeline -->
 <!-- Practical HelpDesk Certification -->
 <div class="main-timeline" id="timeline">
