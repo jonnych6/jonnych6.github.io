@@ -51,40 +51,35 @@
 
     new TypeIt("#line1", {
       speed: 50,
-      cursorChar: "_",
+      cursor: false,
       waitUntilVisible: true,
       afterComplete: async () => {
-        // Add vertical space with fade-in
-        const spacer1 = document.createElement("div");
-        spacer1.innerHTML = "&nbsp;";
-        spacer1.classList.add("fade-in");
-        terminalContent.appendChild(spacer1);
-
-        // Add line 2 with fade-in
         const line2 = document.createElement("div");
         line2.innerHTML = `<span class="prompt">jonny@portfolio</span>:~$ <span id="line2"></span>`;
         line2.classList.add("fade-in");
         terminalContent.appendChild(line2);
 
+        await new Promise(res => setTimeout(res, 800));
+
         new TypeIt("#line2", {
           speed: 50,
-          cursorChar: "_",
+          cursor: false,
           afterComplete: async () => {
-            // Add vertical space with fade-in
             const spacer2 = document.createElement("div");
             spacer2.innerHTML = "&nbsp;";
             spacer2.classList.add("fade-in");
             terminalContent.appendChild(spacer2);
 
-            // Add line 3 with fade-in
             const line3 = document.createElement("div");
             line3.innerHTML = `<span class="prompt">jonny@portfolio</span>:~$ <span id="line3"></span>`;
             line3.classList.add("fade-in");
             terminalContent.appendChild(line3);
 
+            await new Promise(res => setTimeout(res, 800));
+
             new TypeIt("#line3", {
               speed: 50,
-              cursorChar: "_",
+              cursor: false,
             })
               .type("currently")
               .pause(600)

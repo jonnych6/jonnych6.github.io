@@ -677,19 +677,20 @@
     color: #16a085; /* optional for a touch of theme */
   }
 
+  /* Terminal About Me */
   .terminal-box {
     background-color: #f9f9f9;
     color: #333;
     font-family: 'Courier New', monospace;
     padding: 1.5rem;
-    border-left: 4px solid #16a085; /* Keeps your brand color */
+    border-left: 4px solid #16a085;
     border-radius: 8px;
     max-width: 700px;
     margin: auto;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   }
   
-  .terminal-box .prompt {
+  .prompt {
     color: #16a085;
     font-weight: bold;
   }
@@ -699,12 +700,11 @@
     gap: 6px;
     margin-bottom: 1rem;
   }
-
+  
   .terminal-content {
     white-space: pre-line;
-    line-height: 1.5;
+    line-height: 1.6;
   }
-  
   
   .dot {
     width: 10px;
@@ -719,7 +719,7 @@
   
   .fade-in {
     opacity: 0;
-    animation: fadeIn 0.9s ease-in forwards;
+    animation: fadeIn 0.8s ease-in forwards;
   }
   
   @keyframes fadeIn {
@@ -727,4 +727,4 @@
       opacity: 1;
     }
   }
-  
+  /* End of Terminal About Me */
