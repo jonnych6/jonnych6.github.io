@@ -443,7 +443,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* full viewport height */
+    min-height: 80vh; /* full viewport height */
     text-align: center;
     margin: 0 auto;
   }
@@ -458,6 +458,13 @@
     font-weight: 500;
   }
   
+  .intro-subtext {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #666;
+    font-style: italic;
+  }
+
   #typed {
     font-size: 3.2rem;  /* Makes the rotating text stand out even more */
     color: #16a085;
@@ -697,8 +704,30 @@
     max-width: 700px;
     margin: auto;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  
+    /* Hidden by default until scrolled into view */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
   
+  .terminal-box.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .boot-line {
+    font-style: italic;
+    color: #999;
+    margin-bottom: 1rem;
+  }
+
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   .prompt {
     color: #16a085;
     font-weight: bold;

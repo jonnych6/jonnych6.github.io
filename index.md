@@ -7,6 +7,7 @@ sitemap:
 <div class="intro">
   <h1>Hi, I'm Jonathan</h1>
   <h2>I'm a <span id="typed"></span></h2>
+  <p class="intro-subtext">Launching terminal... prompt: jonny@portfolio</p>
   <a href="#timeline" class="scroll-cue">
     <div class="arrow-down"></div>
   </a>
@@ -20,12 +21,12 @@ sitemap:
   </div>
 
   <div class="terminal-content" id="terminal-content">
+    <div class="boot-line">[booting up portfolio session...]</div>
     <div><span class="prompt">jonny@portfolio</span>:~$ <span id="line1"></span></div>
   </div>
 </div>
 
 <!-- Start of timeline -->
-
 <!-- Practical HelpDesk Certification -->
 <div class="main-timeline" id="timeline">
   <div class="timeline-block">
