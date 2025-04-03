@@ -12,11 +12,16 @@ sitemap:
   </a>
 </div>
 
-<img src="{{ '/assets/img/pudhina.jpg' | prepend: site.baseurl }}" id="about-img">
+<div class="terminal-box">
+  <div class="terminal-header">
+    <div class="dot red"></div>
+    <div class="dot yellow"></div>
+    <div class="dot green"></div>
+  </div>
 
-<div id="describe-text">
-	<p>A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability</p>
-	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
+  <div class="terminal-content" id="terminal-content">
+    <div><span class="prompt">jonny@portfolio</span>:~$ <span id="line1"></span></div>
+  </div>
 </div>
 
 <!-- Start of timeline -->

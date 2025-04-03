@@ -676,4 +676,55 @@
     margin-bottom: 1.5rem;
     color: #16a085; /* optional for a touch of theme */
   }
+
+  .terminal-box {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Courier New', monospace;
+    padding: 1.5rem;
+    border-left: 4px solid #16a085; /* Keeps your brand color */
+    border-radius: 8px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .terminal-box .prompt {
+    color: #16a085;
+    font-weight: bold;
+  }
+  
+  .terminal-header {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 1rem;
+  }
+
+  .terminal-content {
+    white-space: pre-line;
+    line-height: 1.5;
+  }
+  
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+  }
+  
+  .dot.red { background: #ff5f56; }
+  .dot.yellow { background: #ffbd2e; }
+  .dot.green { background: #27c93f; }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 0.9s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
   
