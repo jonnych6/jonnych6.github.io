@@ -23,8 +23,10 @@ sitemap:
   <div class="terminal-content" id="terminal-content">
     <div class="boot-line">[booting up portfolio session...]</div>
     <div class="boot-line">ssh jonathan@portfolio</div>
-    <div class="boot-line">jonathan@portfolio's password: S3cr3t</div> 
-    <div class="boot-line">[Warning: Weak password detected]</div>
+    <div class="boot-line">jonathan@portfolio's password: hunter2</div> 
+    <div class="boot-line">[Running password strength checker...]</div>
+    <div class="boot-line">[Result: Terrible 💀]</div>
+    <div class="boot-line">[2FA skipped... wait, what?]</div>
     <div class="boot-line">Access granted anyway 😅</div>
     <div><span class="prompt">jonathan@portfolio</span>:~$ <span id="line1"></span></div>
   </div>
@@ -32,13 +34,24 @@ sitemap:
 
 <h2 class="section-title">Career Timeline</h2>
 <!-- Start of timeline -->
-<!-- Practical HelpDesk Certification -->
+<!-- Ya YA Foods -->
 <div class="main-timeline" id="timeline">
+  <div class="timeline-block">
+    <span class="timeline-date">📜 April 28th, 2025</span>
+    <div class="timeline-marker certification"></div>
+    <div class="timeline-content">
+      <img src="assets/img/timeline/tsm-security-logo.png" class="timeline-logo" alt="Logo">
+      <h3>🧑‍💻 Corporate Cybersecurity Analyst</h3>
+      <h4>Ya YA Foods</h4>
+      <p class="timeline-description">text</p>
+    </div>
+  </div>
+<!-- Practical HelpDesk Certification -->
   <div class="timeline-block">
     <span class="timeline-date">📜 January 9th, 2024</span>
     <div class="timeline-marker certification"></div>
     <div class="timeline-content">
-      <img src="assets/img/cert-logo.png" class="timeline-logo" alt="Logo">
+      <img src="assets/img/timeline/tsm-security-logo.png" class="timeline-logo" alt="Logo">
       <h3>Practical HelpDesk</h3>
       <h4>TCM Security</h4>
       <p class="timeline-description">Completed the Practical HelpDesk Certification by TCM Security, focusing on troubleshooting, ticketing systems, and technical support fundamentals.</p>
@@ -49,10 +62,9 @@ sitemap:
     <span class="timeline-date">🧑‍💻 August 2024 – December 2024</span>
     <div class="timeline-marker experience"></div>
     <div class="timeline-content">
-      <img src="assets\img\aw-logo.png" class="timeline-logo" alt="Arctic Wolf Logo">
+      <img src="assets\img\timeline\aw-logo.png" class="timeline-logo" alt="Arctic Wolf Logo">
       <h3>Endpoint Security Developer Co-op</h3>
       <h4>Arctic Wolf</h4>
-      <p>Details...</p>
     </div>
   </div>
   
@@ -61,7 +73,7 @@ sitemap:
     <span class="timeline-date">🎓 August 2024</span>
     <div class="timeline-marker education"></div>
     <div class="timeline-content">
-      <img src="assets\img\sheridan-logo.png" class="timeline-logo" alt="Sheridan College Logo">
+      <img src="assets\img\timeline\sheridan-logo.png" class="timeline-logo" alt="Sheridan College Logo">
       <h3>Honours Bachelor of Information Sciences (Cyber Security)</h3>
       <h4>Sheridan College – Trafalgar, Oakville, Ontario</h4>
       <p>GPA: 3.76/4.0</p>
@@ -72,7 +84,7 @@ sitemap:
     <span class="timeline-date">🎓 April 2020</span>
     <div class="timeline-marker education"></div>
     <div class="timeline-content">
-      <img src="assets\img\western-university-logo.png" class="timeline-logo" alt="Western University Logo">
+      <img src="assets\img\timeline\western-university-logo.png" class="timeline-logo" alt="Western University Logo">
       <h3>Bachelor of Science (Double Major: Biology & Psychology)</h3>
       <h4>Western University - London, Ontario</h4>
     </div>
